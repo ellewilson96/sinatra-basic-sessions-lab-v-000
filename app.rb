@@ -15,3 +15,4 @@ class App < Sinatra::Base
   session["name"] = params["name"]
   @session = session
 end
+end
